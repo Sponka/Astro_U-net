@@ -6,7 +6,4 @@
 
 To download ESAC <a href="https://drive.google.com/open?id=1e3UDiB3-bFVii3w1edP-BOk6Ei5qy5sD">TechTalk</a>, and you watch the video <a href='https://www.youtube.com/watch?v=QpjQ6Lu0GZ4&feature=youtu.be'>here</a> :).
 
-<p float="center">
-  <img src="network1/network1.gif" width="430"/>
-  <img src="network2/network2.gif" width="430"/> 
-</p>
+
