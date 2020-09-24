@@ -24,7 +24,10 @@
   | Swish activation | --- | --- | --- | --- | --- |
   | Input Image | --- | --- | --- | --- | --- |
   
-                           Munipack                        
+  
+  
+  <p style="text-align:center"> Munipack  </p>
+  
   |Network | Flux error | True positive |	True positive rate |	F-measure| SNR |
   | --- | --- | --- | --- | --- | --- |
   | Just L1 | --- | --- | --- | --- | --- |
