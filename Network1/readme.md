@@ -7,4 +7,4 @@
  
  | Flux error | True positive |	True positive rate |	F-measure| SNR | PSNR | SSIM | KL [10-7]|
  | --- | --- | --- | --- | --- | --- | --- |
- | --- | --- | --- | --- | --- | --- | --- |
+ | 0.0| 0.0 | --- | --- | --- | --- | --- |
