@@ -7,7 +7,6 @@
 
 
   |                          Source Extractor                                ||||||
-  | --- | --- | --- | --- | --- | --- |
   |Network | Flux error | True positive |	True positive rate |	F-measure| SNR |
   | --- | --- | --- | --- | --- | --- |
   | Just L1 | --- | --- | --- | --- | --- |
@@ -25,7 +24,6 @@
   | Input Image | --- | --- | --- | --- | --- |
   
   |                          Munipack                            ||||||
-  | --- | --- | --- | --- | --- | --- |
   |Network | Flux error | True positive |	True positive rate |	F-measure| SNR |
   | --- | --- | --- | --- | --- | --- |
   | Just L1 | --- | --- | --- | --- | --- |
