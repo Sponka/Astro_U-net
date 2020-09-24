@@ -22,7 +22,7 @@
   | ReLU activation | --- | --- | --- | --- | --- |
   | PReLU activation | --- | --- | --- | --- | --- |
   | Swish activation | --- | --- | --- | --- | --- |
-  | Input Image | --- | --- | --- | --- | --- |
+  | Input Image - for comparison | --- | --- | --- | --- | --- |
   
   
   
@@ -42,4 +42,4 @@
   | ReLU activation | --- | --- | --- | --- | --- |
   | PReLU activation | --- | --- | --- | --- | --- |
   | Swish activation | --- | --- | --- | --- | --- |
-  | Input Image | --- | --- | --- | --- | --- |
+  | Input Image - for comparison| --- | --- | --- | --- | --- |
