@@ -11,5 +11,5 @@
  |Input | 49.79| 3366 | 68.08 | 0.78 | 0 | -16 | 0.45 | 0.0231 |
 
 
-<p align="center"><img src="eval_train_loss_net1.png" height="210px"></p>
+<p align="center"><img src="eval_train_loss_net1.png" height="500px"></p>
 	
