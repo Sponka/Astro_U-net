@@ -13,6 +13,6 @@
 
 <p align="center"><img src="eval_train_loss_net1.png" height="500px"></p>
 	
-<p align="left"><img src="hist/example1.png" height="400px"></p> <p align="right"><img src="hist/example2.png" height="400px"></p>
+<p align="left"><img src="hist/example1.png" height="250px"></p> <p align="right"><img src="hist/example2.png" height="250px"></p>
 
-<p align="left"><img src="hist/example3.png" height="400px"></p> <p align="right"><img src="hist/example4.png" height="400px"></p>
+<p align="left"><img src="hist/example3.png" height="250px"></p> <p align="right"><img src="hist/example4.png" height="250px"></p>
