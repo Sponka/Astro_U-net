@@ -4,9 +4,12 @@
  
  
  
- | Flux error | True positive |	True positive rate |	F-measure| SNR | PSNR | SSIM | KL [10-7]|
- | --- | --- | --- | --- | --- | --- | --- | --- |
- | 0.0| 0.0 | --- | --- | --- | --- | --- | --- |
+ |Image|Ratio | Flux error | True positive |	True positive rate |	F-measure| SNR | PSNR | SSIM | KL|
+ | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+ |Input | 2 | 49.79| 3366 | 68.08 | 0.78 | 0 | -16 | 0.45 | 0.0231 |
+ |Network Output | 2 | 2.26| 4341 | 96.30 | 0.85 | 1.64 | 13.3 | 0.63 | 0.0069 |
+ 
+
 
 
 
