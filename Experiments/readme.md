@@ -25,10 +25,10 @@
   | Input Image - for comparison | --- | --- | --- | --- | --- |
   
   
-  <p align="center"><img src="experiments_loss.png" height="300px"></p>
+  <p align="center"><img src="experiments_loss.png" height="500px"></p>
   
-  <p align="center"><img src="experiments_loss2.png" height="300px"></p>
+  <p align="center"><img src="experiments_loss2.png" height="500px"></p>
   
-  <p align="center"><img src="experiments_loss3.png" height="300px"></p>
+  <p align="center"><img src="experiments_loss3.png" height="500px"></p>
   
  
