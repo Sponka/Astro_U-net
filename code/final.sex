@@ -1,0 +1,84 @@
+# Default configuration file for SExtractor 2.19.5
+# EB 2013-12-14
+#
+ 
+#-------------------------------- Catalog ------------------------------------
+ 
+CATALOG_NAME     st_12937_01_wfc3_uvis_f606w_drz_output.cat       # name of the output catalog
+CATALOG_TYPE     FITS_1.0 # NONE,ASCII,ASCII_HEAD, ASCII_SKYCAT,
+                                # ASCII_VOTABLE, FITS_1.0 or FITS_LDAC
+PARAMETERS_NAME  ./sextractor/final.param  # name of the file containing catalog contents
+FILTER_NAME ./sextractor/default.conv
+STARNNW_NAME ./sextractor/default.nnw
+PSF_NAME         ./sextractor/default.psf    # File containing the PSF model
+SOM_NAME         ./sextractor/default.som    # File containing Self-Organizing Map weights
+
+ 
+#------------------------------- Extraction ----------------------------------
+ 
+DETECT_TYPE      CCD            # CCD (linear) or PHOTO (with gamma correction)
+DETECT_MINAREA   10              # min. # of pixels above threshold
+DETECT_THRESH    7            # <sigmas> or <threshold>,<ZP> in mag.arcsec-2
+ANALYSIS_THRESH  3            # <sigmas> or <threshold>,<ZP> in mag.arcsec-2
+ 
+FILTER           N              # apply filter for detection (Y or N)?
+FILTER_NAME      /home/avojtekova/Downloads/sextractor-2.19.5/a.conv   # name of the file containing the filter
+ 
+DEBLEND_NTHRESH  32             # Number of deblending sub-thresholds
+DEBLEND_MINCONT  0.005          # Minimum contrast parameter for deblending
+ 
+CLEAN            Y              # Clean spurious detections? (Y or N)?
+CLEAN_PARAM      1.0            # Cleaning efficiency
+ 
+MASK_TYPE        CORRECT        # type of detection MASKing: can be one of
+                                # NONE, BLANK or CORRECT
+ 
+#------------------------------ Photometry -----------------------------------
+ 
+PHOT_APERTURES   10.0             # MAG_APER aperture diameter(s) in pixels
+PHOT_AUTOPARAMS  2.5, 3.5       # MAG_AUTO parameters: <Kron_fact>,<min_radius>
+PHOT_PETROPARAMS 2.0, 3.5       # MAG_PETRO parameters: <Petrosian_fact>,
+                                # <min_radius>
+ 
+SATUR_LEVEL      50000.0        # level (in ADUs) at which arises saturation
+SATUR_KEY        SATURATE       # keyword for saturation level (in ADUs)
+ 
+MAG_ZEROPOINT    0.0            # magnitude zero-point
+MAG_GAMMA        4.0            # gamma of emulsion (for photographic scans)
+GAIN             1.5            # detector gain in e-/ADU
+GAIN_KEY         GAIN           # keyword for detector gain in e-/ADU
+PIXEL_SCALE      0            # size of pixel in arcsec (0=use FITS WCS info)
+ 
+#------------------------- Star/Galaxy Separation ----------------------------
+ 
+SEEING_FWHM      0.067            # stellar FWHM in arcsec  https://hst-docs.stsci.edu/display/WFC3IHB/6.6+UVIS+Optical+Performance
+
+ 
+#------------------------------ Background -----------------------------------
+ 
+BACK_SIZE        64          # Background mesh: <size> or <width>,<height>
+BACK_FILTERSIZE  3              # Background filter: <size> or <width>,<height>
+ 
+BACKPHOTO_TYPE   GLOBAL         # can be GLOBAL or LOCAL
+ 
+#------------------------------ Check Image ----------------------------------
+ 
+CHECKIMAGE_TYPE    BACKGROUND  # can be NONE, BACKGROUND, BACKGROUND_RMS,
+                                # MINIBACKGROUND, MINIBACK_RMS, -BACKGROUND,
+                                # FILTERED, OBJECTS, -OBJECTS, SEGMENTATION,
+                                # or APERTURES
+CHECKIMAGE_NAME  check.fits     # Filename for the check-image
+ 
+#--------------------- Memory (change with caution!) -------------------------
+ 
+MEMORY_OBJSTACK  3000           # number of objects in stack
+MEMORY_PIXSTACK  300000         # number of pixels in stack
+MEMORY_BUFSIZE   1024           # number of lines in buffer
+ 
+#----------------------------- Miscellaneous ---------------------------------
+ 
+VERBOSE_TYPE     NORMAL         # can be QUIET, NORMAL or FULL
+HEADER_SUFFIX    .head          # Filename extension for additional headers
+WRITE_XML        N              # Write XML file (Y/N)?
+XML_NAME         sex.xml        # Filename for XML output
+
