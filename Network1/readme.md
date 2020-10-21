@@ -17,6 +17,6 @@
 
 <p align="left"><img src="hist/example3.png" height="300px"> <img src="hist/example4.png" height="300px"></p>
 
-<p align="left"><img src="Residual/1.png" height="300px"> <img src="Residual/histogram_1.png" height="300px"></p>
+<p align="left"><img src="Residuals/1.png" height="300px"> <img src="Residuals/histogram_1.png" height="300px"></p>
 
-<p align="left"><img src="Residual/6.png" height="300px"> <img src="Residual/histogram_6.png" height="300px"></p>
+<p align="left"><img src="Residuals/6.png" height="300px"> <img src="Residuals/histogram_6.png" height="300px"></p>
