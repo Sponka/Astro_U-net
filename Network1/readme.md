@@ -27,6 +27,6 @@
 <p align="center"> <b>  Residuals </b> </p>
 
 
-<p align="left"><img src="Residuals/1.png" height="250px"> <img src="Residuals/histogram_1.png" height="300px"></p>
+<p align="left"><img src="Residuals/1.png" height="250px">    <img src="Residuals/histogram_1.png" height="300px"></p>
 
-<p align="left"><img src="Residuals/6.png" height="300px"> <img src="Residuals/histogram_6.png" height="300px"></p>
+<p align="left"><img src="Residuals/6.png" height="320px">    <img src="Residuals/histogram_6.png" height="300px"></p>
