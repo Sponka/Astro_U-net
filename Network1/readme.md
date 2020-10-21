@@ -11,9 +11,13 @@
  |Input | 49.79| 3366 | 68.08 | 0.78 | 0 | -16 | 0.45 | 0.0231 |
 
 
-<p align="center"> <b>  Histogram </b> </p>
 
 <p align="center"><img src="eval_train_loss_net1.png" height="500px"></p>
+
+
+
+<p align="center"> <b>  Histogram </b> </p>
+
 	
 <p align="left"><img src="hist/example1.png" height="300px"> <img src="hist/example2.png" height="300px"></p>
 
@@ -22,6 +26,7 @@
 
 <p align="center"> <b>  Residuals </b> </p>
 
-<p align="left"><img src="Residuals/1.png" height="290px"> <img src="Residuals/histogram_1.png" height="300px"></p>
+
+<p align="left"><img src="Residuals/1.png" height="250px"> <img src="Residuals/histogram_1.png" height="300px"></p>
 
 <p align="left"><img src="Residuals/6.png" height="300px"> <img src="Residuals/histogram_6.png" height="300px"></p>
