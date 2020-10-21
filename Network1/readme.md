@@ -1,7 +1,7 @@
 
  <p align="center"> <b>  Astro-U-net:  Network 1 </b> </p>
  
- <p style="text-align:justify">  The input and output have one channel with size 256x256. Information about the exposure time ratio, is added at the bottom of the U-net. For training we use an exposure time ratio of two. The network is trained for 5000 epochs and it take ~ 48 hours. Each epoch has 160 iterations, where it sees a random crop from each of the 160 training images.  </p>
+ <p style="text-align:justify">  The input and output have one channel with size 256x256. Information about the exposure time ratio, is added at the bottom of the U-net. For training we use an exposure time ratio of two. The network is trained for 5000 epochs and it take ~ 48 hours. Each epoch has 160 iterations, where it sees a random crop from each of the 160 training images. Evaluation was done on images in electrons. </p>
  
  
  
@@ -16,3 +16,7 @@
 <p align="left"><img src="hist/example1.png" height="300px"> <img src="hist/example2.png" height="300px"></p>
 
 <p align="left"><img src="hist/example3.png" height="300px"> <img src="hist/example4.png" height="300px"></p>
+
+<p align="left"><img src="Residual/1.png" height="300px"> <img src="Residual/histogram_1.png" height="300px"></p>
+
+<p align="left"><img src="Residual/6.png" height="300px"> <img src="Residual/histogram_6.png" height="300px"></p>
