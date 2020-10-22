@@ -1,7 +1,7 @@
 
  <p align="center"> <b>  Astro-U-net:  Network 1 </b> </p>
  
- <p style="text-align:justify">  The input and output have one channel with size 256x256. Information about the exposure time ratio, is added at the bottom of the U-net. For training we use an exposure time ratio of two. The network is trained for 5000 epochs and it take ~ 48 hours. Each epoch has 160 iterations, where it sees a random crop from each of the 160 training images. Evaluation was done on images in electrons. </p>
+ <p style="text-align:justify">  The input and output have one channel with size 256x256. Information about the exposure time ratio, is added at the bottom of the U-net. For training we use an exposure time ratio of two. The network is trained for 5000 epochs and it take ~ 48 hours. Each epoch has 160 iterations, where it sees a random crop from each of the 160 training images. Evaluation was done on images in electrons. We created two types of table, first one refers to cross-match SExtractor files for Ground Truth x Output and the second one refers to Ground Truth x Output x Input. PSNR, SSIM, KL are same for both tables and the SNR is calculated just for Ground Truth x Output x Input. </p>
  
  
 <br/><br/>
