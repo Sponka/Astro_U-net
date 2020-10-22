@@ -10,12 +10,15 @@
  |Network Output | 2 | 2.26 |0.18| 4341 | 96.30 | 0.85 | 1.64 | 13.3 | 0.63 | 0.0069 |
  
  
+ 
+ 
+ 
  |Image|Ratio | RFE [%] | RFE error [%] | True positive | True positive rate [%] | SNR | 
  | --- | --- | --- | --- | --- | --- | --- |
  |Input | 2 | 1.55 | 0.21 | 3349 | 67.66 |  0 | 
  |Network Output | 2 | 1.54 |0.14| 3349 | 67.66 | 1.64 |
  
-
+</p>
 
 
 <p align="center"> <b>  Histogram </b> </p>
