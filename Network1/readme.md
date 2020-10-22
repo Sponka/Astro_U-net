@@ -5,7 +5,7 @@
  
  
 <br/><br/>
- 
+   <p align="center"> <b> Ground Truth x Output </b> </p>
  |Image| RFE [%] | RFE error [%] | TP |TPR [%] |F-measure| SNR | PSNR | SSIM | KL|
  | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
  |Network Output | 2.26|0.18| 4334 | 98.94 | 0.86 | 1.63 | 13.6 | 0.64 | 0.007 |
@@ -14,6 +14,8 @@
   Cross-match of Ground Truth x Output.  Relative flux error is denote as RFE, True Positive as TP and True Positive Rate as TPR.
 
 <br/><br/>
+  <p align="center"> <b> Ground Truth x Output x Input </b> </p>
+
  |Image|Ratio | RFE [%] | RFE error [%] | TP | TPR [%] | SNR | 
  | --- | --- | --- | --- | --- | --- | --- |
  |Network Output | 2 | 1.67 |0.14| 3347 | 67.43 | 1.63 |
