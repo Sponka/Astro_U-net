@@ -6,8 +6,9 @@
 <p style="text-align:justify"> Experiments are fun! During training of our networks we work with different hyperparameters to find the best ones. In this section we provide the results from different networks which we trained. We evalueted our networks with the <a href="https://www.astromatic.net/software/sextractor">Source Extractor</a>. Evaluation was done on images in electrons. We created two types of table, first one refers to cross-match SExtractor files for Ground Truth x Output and the second one refers to Ground Truth x Output x Input. PSNR, SSIM, KL are same for both tables and the SNR is calculated just for Ground Truth x Output x Input. </p>
 <br/><br/>
 
-  <p style="text-align:center">  Source Extractor  </p>
+   <p align="center"> <b> Ground Truth x Output  </b> </p>
   
+ 
   |Network | RFE [%]| RFE error [%] | 	TPR [%] |	F-measure| SNR | PSNR | SSIM | KL|
   | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
   | Just L1 | 2.43 | 0.18 | 95.7 | 0.84 | 1.64 | 13.4 | 0.63 |0.0074 | 
@@ -25,6 +26,7 @@
   
    Cross-match of Ground Truth x Output.  Relative flux error is denote as RFE, True Positive as TP and True Positive Rate as TPR.
   <br/><br/>
+   <p align="center"> <b> Ground Truth x Output x Input </b> </p>
   
   |Network | RFE [%]| RFE error [%] |
   | --- | --- | --- |
