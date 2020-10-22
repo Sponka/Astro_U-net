@@ -6,6 +6,7 @@
  
 <br/><br/>
    <p align="center"> <b> Ground Truth x Output </b> </p>
+   
  |Image| RFE [%] | RFE error [%] | TP |TPR [%] |F-measure| SNR | PSNR | SSIM | KL|
  | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
  |Network Output | 2.26|0.18| 4334 | 98.94 | 0.86 | 1.63 | 13.6 | 0.64 | 0.007 |
