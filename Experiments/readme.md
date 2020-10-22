@@ -43,7 +43,7 @@
   
  Cross-match of Ground Truth x Output x Input. Relative flux error is denote as RFE. True Positive is ~ 3350 True Positive Rate ~ 67% for all networks.
  
-  <p style="text-align:center">  Loss Plots  </p> 
+ <p align="center"> <b>  Loss Plots </b>  </p> 
   
   <p align="center"><img src="experiments_loss1.png" height="400px"></p>
   
