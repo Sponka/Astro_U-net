@@ -20,4 +20,6 @@ for f in filter_wide:
                 urllib.request.urlretrieve(url,file)
  
 #This code will download all fits images with filters F555W and F606W. 
+#To filter used data the dataset.txt can be used
+#If image appears more times in dataset.txt it means that image was cut into multiple images
 
