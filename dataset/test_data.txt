@@ -1,3 +1,4 @@
+#If image appears more times in dataset.txt it means that image was cut into multiple images
 hst_12549_03_wfc3_uvis_f606w
 hst_11577_20_wfc3_uvis_f555w
 hst_12476_v1_wfc3_uvis_f606w
