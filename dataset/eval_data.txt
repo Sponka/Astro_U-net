@@ -1,3 +1,4 @@
+#If image appears more times in dataset it means that image was cut into multiple images
 hst_11444_02_wfc3_uvis_f606w
 hst_13003_10_wfc3_uvis_f606w
 hst_12024_04_wfc3_uvis_f606w
