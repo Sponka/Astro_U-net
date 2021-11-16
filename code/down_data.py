@@ -5,7 +5,7 @@ import urllib.request
 import os
 
 
-filter_wide = ["F555W","F606W"]
+filter_wide = ["F555W","F606W", "F814W"]
 for f in filter_wide:
     if not os.path.isdir("data/" + f + "/"):
         os.makedirs("data/" + f + "/")
