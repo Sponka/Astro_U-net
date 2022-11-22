@@ -166,7 +166,7 @@ def one_image(name, ratio, sv_path, create_noise = True, save=True, save_png = F
             in_patch = np.expand_dims(in_patch,  axis=0)
             new_image = sess.run(out_image, feed_dict={in_image: in_patch, ex: ratio})
             output[i: i+ps, j: j+ps] += new_image[0, :, :, 0]
-    output = (output/((ps/step)**2))[w_c: w_c + W, h_c: h_c + H] *870
+    output = (output/((ps/step)**2))[w_c: w_c + W, h_c: h_c + H] *ex_time # to return image in electrons
 
 
 
